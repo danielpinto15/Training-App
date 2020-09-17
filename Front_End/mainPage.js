@@ -42,10 +42,9 @@ function populateTable(data){
 
         var monday =
         "<tr>" +
-          "<th scope='row'>"+ elem.id + "</th>" +
-          "<td>" + skillContent + "</td>" +
-          "<td>" + strengthContent +  "</td>" +
-          "<td>" +  elem.wod +  "</td>" + 
+          "<td>" + "<p><strong>SKILL</strong></p>" + skillContent + 
+          "<p><strong>STRENGTH</strong></p>" + strengthContent +  
+          "<p><strong>WOD</strong></p>" + elem.wod +  "</td>" + 
         "</tr>";
 
         var tuesday =
