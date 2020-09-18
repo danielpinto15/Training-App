@@ -42,15 +42,15 @@ function populateTable(data){
 
         var monday =
         "<tr>" +
-          "<td>" + "<p><strong>SKILL</strong></p>" + skillContent + 
-          "<p><strong>STRENGTH</strong></p>" + strengthContent +  
-          "<p><strong>WOD</strong></p>" + elem.wod +  "</td>" + 
+          "<div> <td valign='top'>" + "<p><strong>SKILL</strong></p>" + skillContent + "</div>" + 
+          "<div> <td valign='top'> <p><strong>STRENGTH</strong></p>" + strengthContent + "</td> </div>" + 
+          "<div> <td valign='top'> <p><strong>WOD</strong></p>" + elem.wod +  "</td> </div>" + 
         "</tr>";
 
         var tuesday =
         "<tr>" +
           "<th scope='row'>"+ elem.id + "</th>" +
-          "<td>" + strengthContent +  "</td>" +
+          "<th>" + strengthContent +  "</td>" +
           "<td>" +  elem.wod +  "</td>" + 
           "<td>" +  oddObjectsContent +  "</td>" + 
         "</tr>";
@@ -91,7 +91,7 @@ function populateTable(data){
             $(monday).appendTo("#workouTableM");
         }
         if(elem.id === 2){
-            $(tuesday).appendTo("#workouTableT");
+            $(tuesday).appendTo("#workouTable");
         }
         if(elem.id === 3){
             $(wednesday).appendTo("#workouTableW");

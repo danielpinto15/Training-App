@@ -13,18 +13,12 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 38px;
-    background-color: black;
 }
 
-
-#osa {
-    border-radius: 60%;
-    width: 3%;
-    height: 3%;
-}
 
 .rightSide {
-    text-align: end;
+    text-transform: uppercase;
+    color: orangered;
 }
 
 .leftSide {
@@ -33,7 +27,7 @@ body {
 
 .navbar > .leftSide > div{
     margin-right: 20px;
-    font-size:1em;
+    font-size: 0.9em;
     text-transform: uppercase;
 }
 
@@ -44,7 +38,7 @@ body {
 }
 
 .navbar-link a {
-    color: white;
+    color: #8a8a8a;
     text-decoration: none;
     transition: color 0.5s;
 }
@@ -57,13 +51,7 @@ body {
     color: orangered;
 }
 
-.active-nav-link {
-    border-bottom: 1px solid orangered;
-}
 
-.active-nav-link a{
-    color: orangered !important;
-}
 
 /* Body Style */
 
@@ -110,11 +98,39 @@ body {
 
 .img-text-wrapper:hover .subtitle {
     font-weight: 600;
-    color: lightseagreen;
+    color: orangered;
 }
 
 .img-darken {
     transition: 1s;
     filter: brightness(10%);
+}
+
+
+/*workout pages*/
+
+.orange {
+    background-color: orangered;
+    width: auto;
+    height: 50px;
+    text-align: center;
+    color: white;
+    font-style: italic;
+}
+
+.table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    opacity: 0.75;
+    padding: 10px;
+    text-align: center;
+    background-color: white;
+    width: 80%;
+    margin-top: 125px;
+}
+
+#cenas {
+   height: 50px;
+   background-color: orangered;
 }
 
