@@ -19,8 +19,12 @@ public class MainController {
         return workoutRepository.findAll();
     }
 
-    @PostMapping(path = "/add")
+    @PutMapping(path = "/add")
     public @ResponseBody String addNewWorkout(@RequestParam String skill, @RequestParam String strength, @RequestParam String wod, @RequestParam String oddObjects ){
+
+
+        Workout cenas = workoutRepository.findById(x);
+        //ver isto.. passar ID quando for a por o treino.. supostamento o resto fica igual... criar um service e um metodo delete... de resto acho que tá
 
         Workout workout = new Workout();
         workout.setSkill(skill);
@@ -32,6 +36,7 @@ public class MainController {
         return "Saved";
 
     }
+
 
 
 }

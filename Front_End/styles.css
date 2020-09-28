@@ -1,11 +1,20 @@
 /* Master Style */
 body {
     margin: 0px;
+    width: 100%;    
+    background-image: url(images/navbar\ background.jpg);
+    background-attachment: fixed;
+
 }
 
 .container{
     display: grid;
     grid-template-columns: 1fr;
+   
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* NavBar Style */
@@ -81,19 +90,21 @@ body {
     align-items: center;
     height: 100%;
     text-align: center;
-    padding-left: 100px;
-    padding-right: 100px;
+    margin-left: 33%;
 }
+
 
 .logo-wrapper img{
     width: 50%;
-    margin-bottom: 20px;
+    margin-bottom: 10%;
+   
 }
 
 .img-text-wrapper .subtitle {
     transition: 1s;
     font-weight: 600;
     color: transparent;
+   
 }
 
 .img-text-wrapper:hover .subtitle {
@@ -122,15 +133,26 @@ body {
     border: 1px solid black;
     border-collapse: collapse;
     opacity: 0.75;
-    padding: 10px;
     text-align: center;
     background-color: white;
     width: 80%;
-    margin-top: 125px;
+    margin-top: 10%;
+}
+
+td { 
+	border-spacing: 0;
+	height: 100px;
+	width: 100px;
+	margin: 0; padding: 0;
 }
 
 #cenas {
    height: 50px;
    background-color: orangered;
+}
+
+.crossfit {
+   text-align: center;
+   margin-top: 3%;
 }
 

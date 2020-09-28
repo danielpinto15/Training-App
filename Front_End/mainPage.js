@@ -49,49 +49,45 @@ function populateTable(data){
 
         var tuesday =
         "<tr>" +
-          "<th scope='row'>"+ elem.id + "</th>" +
-          "<th>" + strengthContent +  "</td>" +
-          "<td>" +  elem.wod +  "</td>" + 
-          "<td>" +  oddObjectsContent +  "</td>" + 
+          "<div> <td valign='top'>" + "<p><strong>SKILL</strong></p>" + strengthContent + "</div>" + 
+          "<div> <td valign='top'> <p><strong>STRENGTH</strong></p>" + elem.wod + "</td> </div>" + 
+          "<div> <td valign='top'> <p><strong>WOD</strong></p>" + oddObjectsContent +  "</td> </div>" + 
         "</tr>";
 
         var wednesday =
         "<tr>" +
-          "<th scope='row'>"+ elem.id + "</th>" +
-          "<td>" + skillContent +  "</td>" +
+          "<div> <td valign='top'>" + "<p><strong>SKILL</strong></p>" + skillContent + "</div>" + 
         "</tr>";
+
 
         var thursday =
         "<tr>" +
-            "<th scope='row'>"+ elem.id + "</th>" +
-            "<td>" + skillContent + "</td>" +
-            "<td>" + strengthContent +  "</td>" +
-            "<td>" +  elem.wod +  "</td>" + 
-            "<td>" +  oddObjectsContent +  "</td>" + 
+          "<div> <td valign='top'>" + "<p><strong>SKILL</strong></p>" + skillContent + "</div>" + 
+          "<div> <td valign='top'> <p><strong>STRENGTH</strong></p>" + strengthContent + "</td> </div>" + 
+          "<div> <td valign='top'> <p><strong>Front Squat</strong></p>" + elem.wod +  "</td> </div>" + 
+          "<div> <td valign='top'> <p><strong>WOD</strong></p>" + oddObjectsContent +  "</td> </div>" + 
         "</tr>";
 
         var friday =
         "<tr>" +
-            "<th scope='row'>"+ elem.id + "</th>" +
-            "<td>" + skillContent + "</td>" +
-            "<td>" + strengthContent +  "</td>" +
-            "<td>" +  elem.wod +  "</td>" + 
-            "<td>" +  oddObjectsContent +  "</td>" +
-        "</tr>";
+        "<div> <td valign='top'>" + "<p><strong>DEADLIFT</strong></p>" + skillContent + "</div>" + 
+        "<div> <td valign='top'> <p><strong>CARDIO</strong></p>" + strengthContent + "</td> </div>" + 
+        "<div> <td valign='top'> <p><strong>WOD</strong></p>" + elem.wod +  "</td> </div>" + 
+        "<div> <td valign='top'> <p><strong>ODD OBJECTS</strong></p>" + oddObjectsContent +  "</td> </div>" + 
+      "</tr>";
 
         var saturday =
         "<tr>" +
-          "<th scope='row'>"+ elem.id + "</th>" +
-          "<td>" + skillContent +  "</td>" +
-          "<td>" + strengthContent +  "</td>" +
-        "</tr>";
+        "<div> <td valign='top'>" + "<p><strong>SKILL</strong></p>" + skillContent + "</div>" + 
+        "<div> <td valign='top'> <p><strong>WOD</strong></p>" + strengthContent + "</td> </div>" + 
+      "</tr>";
         
 
         if(elem.id === 1){
             $(monday).appendTo("#workouTableM");
         }
         if(elem.id === 2){
-            $(tuesday).appendTo("#workouTable");
+            $(tuesday).appendTo("#workouTableT");
         }
         if(elem.id === 3){
             $(wednesday).appendTo("#workouTableW");

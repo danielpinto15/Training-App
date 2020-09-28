@@ -3,16 +3,42 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="140e7737-13d3-4ad1-ae32-bbc168a3bc37" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/trainig/src/main/java/com/progamOsa/trainig/Friday.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trainig/src/main/java/com/progamOsa/trainig/Monday.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trainig/src/main/java/com/progamOsa/trainig/Monday.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trainig/src/main/java/com/progamOsa/trainig/Saturday.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trainig/src/main/java/com/progamOsa/trainig/Thursday.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trainig/src/main/java/com/progamOsa/trainig/Tuesday.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trainig/src/main/java/com/progamOsa/trainig/Wednesday.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trainig/src/main/java/com/progamOsa/trainig/mainPage.js" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front_End/crossfit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front_End/images/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front_End/squatUni.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front_End/Friday.html" beforeDir="false" afterPath="$PROJECT_DIR$/Front_End/Friday.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front_End/Monday.css" beforeDir="false" afterPath="$PROJECT_DIR$/Front_End/Monday.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front_End/Monday.html" beforeDir="false" afterPath="$PROJECT_DIR$/Front_End/Monday.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front_End/Saturday.html" beforeDir="false" afterPath="$PROJECT_DIR$/Front_End/Saturday.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front_End/Thursday.html" beforeDir="false" afterPath="$PROJECT_DIR$/Front_End/Thursday.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front_End/Tuesday.html" beforeDir="false" afterPath="$PROJECT_DIR$/Front_End/Tuesday.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front_End/Wednesday.html" beforeDir="false" afterPath="$PROJECT_DIR$/Front_End/Wednesday.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front_End/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Front_End/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front_End/mainPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/Front_End/mainPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front_End/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/Front_End/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trainig/src/main/java/com/progamOsa/trainig/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/trainig/src/main/java/com/progamOsa/trainig/MainController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,17 +56,39 @@
     </option>
   </component>
   <component name="ProjectId" id="1hdjg28ELhTxIwdVFGGfsnqubkb" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/trainig/pom.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunManager">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ProgramOsaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="trainig" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.progamOsa.trainig.ProgramOsaApplication" />
@@ -58,16 +106,72 @@
       <option name="presentableId" value="Default" />
       <updated>1600347971269</updated>
       <workItem from="1600347972466" duration="37000" />
+      <workItem from="1601207098816" duration="1291000" />
+      <workItem from="1601293015181" duration="4002000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1600348007991">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1600348007991" />
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1601318051992">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1601318051992" />
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1601231108941" />
+    <state width="1877" height="281" key="GridCell.Tab.0.center" timestamp="1601318051992">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="281" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1601318051992" />
+    <state width="1877" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1601231108941" />
+    <state width="1877" height="281" key="GridCell.Tab.0.left" timestamp="1601318051992">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="281" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1601318051992" />
+    <state width="1877" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1601231108941" />
+    <state width="1877" height="281" key="GridCell.Tab.0.right" timestamp="1601318051992">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="281" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1601318051992" />
+    <state width="1877" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1601231108941" />
+    <state width="1877" height="281" key="GridCell.Tab.1.bottom" timestamp="1601318051992">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="281" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1601318051992" />
+    <state width="1877" height="281" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1601231108941" />
+    <state width="1877" height="281" key="GridCell.Tab.1.center" timestamp="1601318051992">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="281" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1601318051992" />
+    <state width="1877" height="281" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1601231108941" />
+    <state width="1877" height="281" key="GridCell.Tab.1.left" timestamp="1601318051992">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="281" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1601318051992" />
+    <state width="1877" height="281" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1601231108941" />
+    <state width="1877" height="281" key="GridCell.Tab.1.right" timestamp="1601318051992">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="281" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1601318051992" />
+    <state width="1877" height="281" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1601231108941" />
   </component>
 </project>
